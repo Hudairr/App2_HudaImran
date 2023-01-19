@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".MainActivity2"
     android:background="@drawable/weatheroo_bg">
 
@@ -14,16 +16,9 @@
         android:id="@+id/idTVHead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="146dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="422dp"
         android:gravity="center"
         android:padding="8dp"
+        android:fontFamily="@font/verdana"
         android:text="Welcome to\n Weatheroo"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -31,14 +26,18 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/CurrentWeather"
+        android:id="@+id/b2"
+        android:fontFamily="@font/verdana"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_centerInParent="true"
-        android:layout_marginEnd="87dp"
-        android:layout_marginBottom="292dp"
+        android:text="Instructions" />
+
+    <Button
+        android:id="@+id/CurrentWeather"
+        android:fontFamily="@font/verdana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Check Current Weather" />
 
 
-</RelativeLayout>
+</LinearLayout>

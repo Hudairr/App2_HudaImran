@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="316dp"
+        app:srcCompat="@drawable/splash1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/verdana"
+        android:text="Instructions"
+        android:textColor="#1E90FF"
+        android:textSize="42dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:text=">> Click on any of the buttons to get the weather.\n>> Enter the location.\n>> Then press the search icon to get the desired data!"
+        android:textStyle="italic"
+        android:fontFamily="@font/verdana"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
