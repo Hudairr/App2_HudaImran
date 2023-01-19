@@ -7,12 +7,14 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".MainActivity2"
-    android:background="@drawable/weatheroo_bg">
+    android:background="@drawable/img">
 
     <!--on below line we are creating a
          simple text view for heading-->
 
     <TextView
+        android:layout_marginTop="400dp"
+        android:background="#3E000000"
         android:id="@+id/idTVHead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,13 +22,24 @@
         android:padding="8dp"
         android:fontFamily="@font/verdana"
         android:text="Welcome to\n Weatheroo"
-        android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:layout_marginTop="15dp"
+        android:background="#3E000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/verdana"
+        android:gravity="center"
+        android:textColor="#ECECEC"
+        android:textStyle="italic"
+        android:text="The only weather app you will ever need" />
+
     <Button
         android:id="@+id/b2"
+        android:layout_marginTop="15dp"
         android:fontFamily="@font/verdana"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
