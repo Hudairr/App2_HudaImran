@@ -10,6 +10,11 @@
     android:background="@color/white">
 
     <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_arrow_down" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="316dp"
@@ -28,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
-        android:text=">> Click on any of the buttons to get the weather.\n>> Enter the location.\n>> Then press the search icon to get the desired data!"
+        android:text="1. Click on any of the buttons to get the weather.\n2. Enter the location.\n3. Then press the search icon to get the desired data!\nP.s. Drag from the top to refresh the page!"
         android:textStyle="italic"
         android:fontFamily="@font/verdana"
         android:layout_marginTop="8dp"/>
